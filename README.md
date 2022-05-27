@@ -1,3 +1,9 @@
+# TestPhotos
+
+You can find two tests photos in this repo
+- Portal_bot_test
+- WEbsite_bot_test
+
 # testbot
 
 Demonstrate the core capabilities of the Microsoft Bot Framework
