@@ -32,7 +32,7 @@ class DentaBot extends ActivityHandler {
 
             let message;
             if (result.intents[topIntent].score>0.65) {
-                if (topIntent === 'GetAvailability') {
+                if (topIntent === 'getAvailability') {
                     message = await this.DentistScheduler.getAvailability(this.IntentRecognizer.getTimeEntity(result));
                 } else {
                     message = await this.DentistScheduler.scheduleAppointment(this.IntentRecognizer.getTimeEntity(result));
