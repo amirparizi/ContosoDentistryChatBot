@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'dentistryprojectamir'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_88574C4ECE9647EDB7A6C2E47AF242D6 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8C6DA3B3DD604D5497C3590CEAD4B789 }}
           package: .
